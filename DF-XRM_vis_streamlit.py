@@ -85,13 +85,24 @@ uploaded_file = st.file_uploader("Upload a .cif file")
 
 
 known_crystal_structures = {
-    'Diamond':'http://www.crystallography.net/cod/9012290.cif',
-    'Aluminium':'http://www.crystallography.net/cod/9008460.cif',
-    'BaTiO3':'http://www.crystallography.net/cod/1507756.cif',
-    'KNbO3':'http://www.crystallography.net/cod/2310011.cif',
-    'LiNbO3':'http://www.crystallography.net/cod/1541936.cif',
-    'W':'http://www.crystallography.net/cod/9006486.cif',
-    'Pb':'http://www.crystallography.net/cod/1531228.cif',
+    'Diamond C':'http://www.crystallography.net/cod/9012290.cif',
+    'Aluminium Al':'http://www.crystallography.net/cod/9008460.cif',
+    'Titanium Ti': 'http://www.crystallography.net/cod/1532765.cif',
+    'alpha-Iron (BCC) Fe': 'http://www.crystallography.net/cod/1100108.cif',
+    'Nickel Ni': 'http://www.crystallography.net/cod/2102254.cif',
+    'Copper Cu': 'http://www.crystallography.net/cod/5000216.cif', 
+    'Tungsten W':'http://www.crystallography.net/cod/9006486.cif',
+    'Lead Pb':'http://www.crystallography.net/cod/1531228.cif',
+    'Corundum Al2O3': 'http://www.crystallography.net/cod/1000032.cif',
+    'Calcite CaCO3': 'http://www.crystallography.net/cod/1547350.cif',
+    'Aragonite CaCO3': 'http://www.crystallography.net/cod/2100187.cif', 
+    'alpha-Quartz SiO2': 'http://www.crystallography.net/cod/1526860.cif',
+    'Cementite Fe3C': 'http://www.crystallography.net/cod/2300076.cif',
+    'Barium Titanate BaTiO3':'http://www.crystallography.net/cod/1507756.cif',
+    'Potassium Niobate KNbO3':'http://www.crystallography.net/cod/2310011.cif',
+    'Lithium Niobate LiNbO3':'http://www.crystallography.net/cod/1541936.cif',
+    'Lanthanum Hexaboride LaB6': 'http://www.crystallography.net/cod/1000055.cif',
+    'Cerium Oxide CeO2': 'http://www.crystallography.net/cod/1562989.cif',
 }
 
 keys = ['Upload']+list(known_crystal_structures.keys())
